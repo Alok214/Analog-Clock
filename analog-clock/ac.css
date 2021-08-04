@@ -1,0 +1,53 @@
+#con{
+    border: 2px solid red;
+    text-align: center;
+    margin-bottom: 80px;
+    font-size: 25px;
+}
+#clkcon{
+    position: relative;
+    margin: auto;
+    height: 440px;
+    width: 440px;
+    background: url(clk4.png) no-repeat;
+    background-size: 100%;
+}
+#hr,#min,#sec{
+    position: absolute;
+    background:red;
+    border: 10px;
+}
+#hr{
+width:1%;
+height: 25%;
+top: 24.9%;
+left: 49.7%;
+transform-origin: bottom;
+}
+ #min {
+    width:1%;
+height: 30%;
+top: 20%;
+left: 49.5%;
+opacity: 80%;
+transform-origin: bottom;
+background:rgb(223, 8, 90);
+} 
+#sec{
+    width:1% ;
+height: 35%;
+top: 15%;
+left: 49.7%;
+opacity: 50%;
+transform-origin: bottom;
+background:rgb(236, 118, 8);
+}
+@media (max-width:500){
+    #con{
+        border: 2px solid red;
+        text-align: center;
+        margin-bottom: 80px;
+        font-size: 25px;
+    }
+}
+
